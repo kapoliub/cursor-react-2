@@ -1,0 +1,73 @@
+.Contacts .search-wrapper{
+    padding: 6px;
+    padding-top: 5px;
+    background-color: rgb(173, 173, 173);
+}
+
+.Contacts .search-wrapper input{
+    width: 100%;
+    padding: 3px 5px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-image: url(../assets/img/search-icon.png);
+    background-size: 6%;
+    background-repeat: no-repeat;
+    background-position: 40% 50%;
+    text-indent: 20px;
+    font-size: 0.85em;
+    transition: .1s;
+}
+
+.Contacts .search-wrapper input::placeholder{
+    color: #AEB1B2;
+}
+
+.Contacts .search-wrapper input:focus::placeholder{
+    color: transparent;
+    transition: .1s;
+
+}
+
+.Contacts .search-wrapper input:focus{
+    background-image: none;
+    text-align: left;
+    text-indent: 0;
+    transition: .1s;
+}
+
+.Contact{
+    padding: 6px 8px 0;
+    color: rgb(36, 36, 36);
+}
+
+.Contact .name-gender-field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.Contact .gender img{
+    max-width: 20px;
+    width: 100%;
+}
+
+.Contact .phone{
+    border-bottom: 1px solid rgb(207, 207, 207);
+    padding-bottom: 6px;
+}
+
+.Contacts .checkboxes-field{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.Contacts .checkboxes-field label{
+    padding: 5px 0;
+}
