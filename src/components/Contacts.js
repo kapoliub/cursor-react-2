@@ -79,8 +79,8 @@ class Contacts extends Component{
         this.setState({
             contacts:  [...contacts.filter( el => {
                 return (
-                el.lastName.toLowerCase().includes(e.target.value) || 
-                el.firstName.toLowerCase().includes(e.target.value) || 
+                el.lastName.toLowerCase().includes(e.target.value.toLowerCase()) || 
+                el.firstName.toLowerCase().includes(e.target.value.toLowerCase()) || 
                 el.phone.includes(e.target.value)
                 )
             })]
